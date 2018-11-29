@@ -1,0 +1,113 @@
+@media (max-width: 750px){
+    header {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .form {
+        max-height: unset;
+    }
+    .container {
+        align-items: baseline;
+    }
+}
+
+@media (max-width: 570px){
+    footer {
+        text-align: center;
+        padding-left: unset;
+        padding-right: unset;
+        min-height: 200px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    main {
+        .content {
+            .down_raw {
+                height: unset !important;
+            }
+        }
+    }
+    .description_text {
+        height: unset !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        height: unset !important;
+    }
+    .down_raw {
+        flex-direction: column;
+        height: unset !important;
+    }
+    .description_text {
+        height: unset !important;
+    }
+    .item {
+        overflow: visible;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 370px) {
+    .form {
+        button {
+            max-width: unset;
+        }
+        width: 90%;
+        .choosen {
+            width: 50%;
+        }
+        .unchoosen {
+            width: 50%;
+        }
+        input {
+            width: 85%;
+        }
+        .button_form {
+            width: 90%;
+        }
+        .text_form {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .up_raw {
+        margin-top: unset;
+    }
+    .container {
+        margin-top: unset;
+    }
+    .text_form {
+        font-size: 20px;
+        min-height: 70px;
+    }
+    .main_blue_text {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .button_form {
+        font-size: 25px;
+    }
+    .logo img {
+       left: 10%;
+       width: 90%;
+    }
+}
+
+@media (max-width: 240px) {
+    .text_form {
+        font-size: 20px;
+        min-height: 115px;
+    }
+    .main_blue_text {
+        font-size: 25px;
+        min-height: 60px;
+    }
+    .button_form {
+        font-size: 15px;
+    }
+}
